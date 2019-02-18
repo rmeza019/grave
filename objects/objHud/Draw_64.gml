@@ -5,6 +5,8 @@
 	var hpHeight = 6;
 	
 	if (instance_exists(objSkeleton)) {
+		drawHp = objSkeleton.hp;
+		drawMaxHp = objSkeleton.max_hp;
 		drawHp = lerp(drawHp, objSkeleton.hp, 0.2);
 	} else {
 		drawHp = lerp(drawHp, 0, 0.2);
@@ -24,9 +26,29 @@
 		var text = "Kills: " + string(objSkeleton.kills);
 		var textWidth = string_width(text);
 		var textHeight = string_height(text);
-		var statsBarIniX = 0; //wtf
 		
-		draw_rectangle_color(8, 16, 8 + textWidth + 4, 16, c_dkgray, c_dkgray, c_dkgray, c_dkgray, false);
-		draw_text(12, 20, text);
+		var padding1 = 4;
+		var padding2 = 2;
+		var padding3 = 0.5;
+		
+		var killsFrameIniX = 8;
+		var killsFrameIniY = 18;
+		var killsFrameEndX = killsFrameIniX + textWidth + padding1;
+		var killsFrameEndY = killsFrameIniY + textHeight;
+		
+		draw_rectangle_color(killsFrameIniX, killsFrameIniY, killsFrameEndX, killsFrameEndY, c_dkgray, c_dkgray, c_dkgray, c_dkgray, false);
+		draw_text(killsFrameIniX + padding2 + padding3, killsFrameIniY + padding2, text);
+		
+		text = "Level: " + string(objSkeleton.level);
+		textWidth = string_width(text);
+		textHeight = string_height(text);
+		
+		var lvlFrameIniX = killsFrameEndX + padding1;
+		var lvlFrameIniY = 18;
+		var lvlFrameEndX = lvlFrameIniX + textWidth + padding1;
+		var lvlFrameEndY = lvlFrameIniY + textHeight;
+		
+		draw_rectangle_color(lvlFrameIniX, lvlFrameIniY, lvlFrameEndX, lvlFrameEndY, c_dkgray, c_dkgray, c_dkgray, c_dkgray, false);
+		draw_text(lvlFrameIniX + padding2 + padding3, lvlFrameIniY + padding2, text);
 	}
 	

@@ -52,8 +52,9 @@ switch (state){
 		#region attack1 state
 		SetStateSprite(sprSkeleton_attack_one, 0.5, 0);
 		
-		if (CheckFrameReached(0) && hitBox == -1) {
-			hitBox = CreateHitbox(x, y, self, sprSkeleton_attack_one_damage, image_speed, 2.5, 4, 5, image_xscale);
+		if (CheckFrameReached(0)) {
+			//hitBox = 
+			CreateHitbox(x, y, self, sprSkeleton_attack_one_damage, image_speed, 2.5, 4, 5, image_xscale);
 		}
 		
 		//state change: attack2
@@ -71,8 +72,9 @@ switch (state){
 		SetStateSprite(sprSkeleton_attack_two, 0.5, 0);
 		
 		
-		if (CheckFrameReached(1) && hitBox == -1) {
-			hitBox = CreateHitbox(x, y, self, sprSkeleton_attack_two_damage, image_speed, 2.5, 3, 5, image_xscale);
+		if (CheckFrameReached(1)) {
+			//hitBox = 
+			CreateHitbox(x, y, self, sprSkeleton_attack_two_damage, image_speed, 2.5, 3, 5, image_xscale);
 		}
 		
 		//state change: attack3
@@ -89,8 +91,8 @@ switch (state){
 		#region attack3 state
 		SetStateSprite(sprSkeleton_attack_three, 0.5, 0);
 		
-		if (CheckFrameReached(2) && hitBox == -1) {
-			hitBox = CreateHitbox(x, y, self, sprSkeleton_attack_three_damage, image_speed, 4, 3, 8, image_xscale);
+		if (CheckFrameReached(2)) {
+			CreateHitbox(x, y, self, sprSkeleton_attack_three_damage, image_speed, 4, 3, 8, image_xscale);
 		}
 		
 		SetStateAfterAnimation("move");

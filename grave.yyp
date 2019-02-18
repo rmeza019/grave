@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0adac74a-9431-4c3e-abb2-bf7edc49e444",
+            "Value": {
+                "id": "f3336c19-d18a-4fb1-b33d-f7633a70fa74",
+                "resourcePath": "objects\\objEnemy\\objEnemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0bc31c2a-1253-46a4-973e-fb1c3d598af7",
             "Value": {
                 "id": "8c6a1224-a304-440f-b97d-6646153c245c",
@@ -151,6 +159,14 @@
             }
         },
         {
+            "Key": "38c211ee-7749-4734-8ccd-1f7b0d9c351f",
+            "Value": {
+                "id": "5be0e0d7-c710-4e15-923b-0e222ac8f617",
+                "resourcePath": "objects\\objExpOrb\\objExpOrb.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3c282d08-9928-4d3c-95e3-fab8ca39a37c",
             "Value": {
                 "id": "2ea256b2-7c78-42c0-a347-ca8789c38c59",
@@ -196,6 +212,30 @@
                 "id": "023d7e2d-9287-4640-a880-8f379e96026b",
                 "resourcePath": "scripts\\SetStateAfterAnimation\\SetStateAfterAnimation.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4af7bead-7e25-427b-b7ef-6be47b3c61ac",
+            "Value": {
+                "id": "a723a287-e1bb-429c-b99e-0d912cd9d6e6",
+                "resourcePath": "sprites\\sprCrow\\sprCrow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4c25ac51-7a26-4009-a959-1b86c81e5292",
+            "Value": {
+                "id": "bbf46888-3672-4bf1-bd2b-ce73d718e047",
+                "resourcePath": "views\\4c25ac51-7a26-4009-a959-1b86c81e5292.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4f559657-9c2e-450b-a00a-5a6ee4662f89",
+            "Value": {
+                "id": "904e2242-2e4e-4035-b7e3-781ff13f2b99",
+                "resourcePath": "objects\\objCrow\\objCrow.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -335,6 +375,14 @@
             }
         },
         {
+            "Key": "985b4752-f3d9-4242-a700-942c2cc93b19",
+            "Value": {
+                "id": "b32a45d6-224b-4376-8a9c-2fc046310f9e",
+                "resourcePath": "objects\\objEnemySpawner\\objEnemySpawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a118c735-db95-4c88-a5b2-709a345605b7",
             "Value": {
                 "id": "89b92e5e-907e-453a-aaec-7cfc6ce7e2ce",
@@ -415,6 +463,14 @@
             }
         },
         {
+            "Key": "be4cc255-6ab3-4d58-a753-167df7a222c0",
+            "Value": {
+                "id": "881880b5-e5a1-4be9-8ee4-f92703f05b83",
+                "resourcePath": "sprites\\sprExpOrb\\sprExpOrb.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c0aa0bc5-2fe9-4381-b5be-0aafc2f7ee4c",
             "Value": {
                 "id": "0a850a5f-1213-45b2-8e7a-a782fe72dca8",
@@ -491,6 +547,14 @@
             "Value": {
                 "id": "e03b00fc-997b-4a87-a783-30f09829e258",
                 "resourcePath": "sprites\\sprKnight_mask\\sprKnight_mask.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dad8c451-a4bd-4657-b143-a4805251c009",
+            "Value": {
+                "id": "8551ffa6-9028-4d33-b5d0-9333af710deb",
+                "resourcePath": "sprites\\sprFeather\\sprFeather.yy",
                 "resourceType": "GMSprite"
             }
         },
